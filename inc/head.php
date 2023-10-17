@@ -8,6 +8,8 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="canonical" href="https://yutaka-i.com/">
 <link rel="icon" href="<?php echo $path; ?>assets/images/favicon.png" sizes="32×32" type="image/png">
+<link rel="apple-touch-icon" href="<?php echo $path; ?>assets/images/apple-touch-icon.png">
+<link rel="icon" href="<?php echo $path; ?>assets/images/android-icon.png">
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo $path; ?>assets/css/normalize.css">
 <link rel="stylesheet" href="<?php echo $path; ?>assets/css/layout.css">

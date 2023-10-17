@@ -310,5 +310,17 @@ include(dirname(__FILE__).$path.'inc/footer.php'); // footer.php の読み込み
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script> 
 <script src="<?php echo $path; ?>assets/js/script.js"></script> 
 <script src="<?php echo $path; ?>assets/js/home.js"></script>
+<!-- reCAPTCHA V3 -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc6imsoAAAAAPE3IiORyT8sb-hj_B1gNR6TqoaF"></script>
+<script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6Lc6imsoAAAAAPE3IiORyT8sb-hj_B1gNR6TqoaF', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+          });
+        });
+      }
+  </script>
 </body>
 </html>
